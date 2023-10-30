@@ -3,7 +3,7 @@
 This Step activates Bitrise's remote build cache add-on for subsequent Bazel executions in the workflow.
 
 
-[![Step changelog](https://shields.io/github/v/release/bitrise-steplib/bitrise-step-activate-bazel-remote-cache?include_prereleases&label=changelog&color=blueviolet)](https://github.com/bitrise-steplib/bitrise-step-activate-bazel-remote-cache/releases)
+[![Step changelog](https://shields.io/github/v/release/bitrise-steplib/bitrise-step-activate-bazel-remote-cache?include_prereleases&label=changelog&color=blueviolet)](https://github.com/bitrise-steplib/bitrise-step-activate-bazel-cache/releases)
 
 Activates Bitrise Remote Build Cache add-on for subsequent Bazel builds in the workflow
 
