@@ -34,5 +34,5 @@ esac
 
 
 echo "Configuring Bitrise remote cache..."
-envman add --key BITRISE_CACHE_ENDPOINT --value $CACHE_URL
+envman add --key BITRISE_CACHE_ENDPOINT --value "$BITRISE_CACHE_ENDPOINT"
 
