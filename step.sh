@@ -12,6 +12,7 @@ END
 
 if [ "$BITRISEIO_BUILD_CACHE_ENABLED" != "true" ]; then
   printf "\n%s\n" "$UNAVAILABLE_MESSAGE"
+  bitrise plugin install https://github.com/bitrise-io/bitrise-plugins-annotations.git
   bitrise :annotation annotate "$UNAVAILABLE_MESSAGE" --style error || {
     echo "Failed to create annotation"
     exit 0
