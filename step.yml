@@ -11,6 +11,9 @@ support_url: https://github.com/bitrise-steplib/bitrise-step-activate-bazel-cach
 type_tags:
   - utility
 
+run_if: .IsCI
+is_skippable: true
+
 toolkit:
   bash:
     entry_file: step.sh
